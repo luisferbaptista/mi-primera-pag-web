@@ -1,0 +1,63 @@
+body{
+  margin: 0em;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif; 
+}
+.titulo {
+  font-family: 'Noto Sans Display', sans-serif;
+  height: 400px;
+  background-image: url(https://cdn.glitch.me/bd681a6a-2a6a-41ef-acd2-87508fbb6971%2F124115-bevtsn4arh.jpg?v=1633638021017);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.titulo-small{
+  height:200px;
+  background-blend-mode: normal;
+}
+}
+.Titulo2 {
+  height: 100px;
+}
+.card-title{
+  
+  min-height: 2.5rem;
+}
+.card-tex{
+  font-family: 'Noto Sans Display', sans-serif;
+  min-heigth: 10rem;
+}
+.btn-success{
+
+}
+.heiht_maximg{
+  min-height: 100px;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.responsive-iframe{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+
+.responsive-iframe iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
